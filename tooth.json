@@ -1,11 +1,11 @@
 {
     "format_version": 1,
     "tooth": "github.com/quizhizhe/Tooth-LLCheckBag",
-    "version": "1.1.2",
+    "version": "1.2.1",
     "dependencies": {
         "github.com/Tooth-Hub/LiteLoaderBDS": [
             [
-                "2.0.9"
+                "2.1.x"
             ]
         ]
     },
