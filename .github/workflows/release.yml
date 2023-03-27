@@ -15,4 +15,4 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          body: ${GITHUB_REF#refs/tags/*}
+          body: ${{ github.ref_name }}
